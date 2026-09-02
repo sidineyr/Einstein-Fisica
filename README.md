@@ -25,7 +25,7 @@ A BNCC define competências e habilidades integradas de Ciências da Natureza, n
 
 ## Laboratórios
 
-- analisador de movimento;
+- forças e movimento;
 - bancada de ondas;
 - circuitos de baixa tensão;
 - órbitas e gravitação;
@@ -33,11 +33,15 @@ A BNCC define competências e habilidades integradas de Ciências da Natureza, n
 
 ## Fontes institucionais
 
-- [MEC — BNCC do Ensino Médio](https://www.gov.br/mec/pt-br/cne/bncc_ensino_medio.pdf)
+- [MEC — BNCC do Ensino Médio](https://www.gov.br/mec/pt-br/cne/arquivos/bncc_ensino_medio.pdf)
 - [PhET — Universidade do Colorado](https://phet.colorado.edu/pt_BR/)
 - [NASA STEM](https://www.nasa.gov/learning-resources/for-students-grades-9-12/)
 - [NASA Science](https://science.nasa.gov/learn/)
-- [CERN — recursos para estudantes](https://home.cern/resources?audience=36)
+- [CERN — Inspire and Educate](https://home.cern/about/what-we-do/inspire-educate/)
+
+## Bastidores
+
+- [Matéria para o Substack: Professor solitário com IA realiza sonho de ensinar Física sem fazer nada](SUBSTACK.md)
 
 ## Desenvolvimento
 
