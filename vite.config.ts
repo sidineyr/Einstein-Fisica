@@ -1,9 +1,11 @@
-import { sites } from '@openai/sites-vite-plugin';
+import path from 'node:path';
+import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/postcss';
-import vinext from 'vinext';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/Einstein-Fisica/',
   css: { postcss: { plugins: [tailwindcss()] } },
-  plugins: [vinext(), sites()],
+  plugins: [react()],
+  resolve: { alias: { '@': path.resolve(__dirname, '.') } },
 });
