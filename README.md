@@ -2,6 +2,20 @@
 
 Estúdio aberto de investigação em Física para o Ensino Médio brasileiro. O projeto organiza 12 missões em três séries e transforma cada tema em uma sequência de observação, medição, modelagem, teste e argumentação.
 
+## Funcionalidades
+
+- percurso investigativo persistente em cinco etapas;
+- bancada da Segunda Lei de Newton com previsão, medições, tabela e gráfico;
+- quiz de 12 questões com feedback conceitual, pontuação e novas tentativas;
+- progresso salvo localmente no navegador, sem coleta de dados pessoais;
+- 12 missões curriculares e quatro laboratórios com simulações oficiais;
+- registros de observação e síntese após as investigações;
+- materiais para professores e fontes científicas verificáveis;
+- navegação responsiva, acessível por teclado e compatível com redução de movimento;
+- página de autoria, créditos e independência editorial.
+
+**Acesse:** https://sidineyr.github.io/Einstein-Fisica/
+
 ## Proposta
 
 O aluno não entra em uma biblioteca de capítulos: entra em uma bancada de investigação. O primeiro contato é um instrumento manipulável; a formalização nasce da necessidade de explicar dados. A experiência foi desenhada para ser diferente do Chemical e preservar identidade própria.
