@@ -69,6 +69,9 @@ pnpm build
 
 O site não substitui professor, laboratório equipado, análise de risco ou normas da instituição. Não realize práticas com rede elétrica, altas temperaturas, radiação, lasers, pressão ou materiais perigosos apenas com base em uma página web.
 
-## Licença
+## Licenças
 
-Código sob licença MIT. Conteúdos e marcas de terceiros permanecem sujeitos às licenças e termos das instituições responsáveis.
+- **Código-fonte:** [MIT](LICENSE).
+- **Conteúdo educacional original:** [Creative Commons Atribuição 4.0 Internacional — CC BY 4.0](LICENSE-CONTENT.md).
+
+Marcas, simulações, imagens, referências e outros materiais de terceiros permanecem sujeitos às licenças e aos termos de seus respectivos titulares.
