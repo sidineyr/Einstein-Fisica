@@ -89,11 +89,13 @@ export default function AboutPage() {
             Autoria, créditos e fontes para ir além.
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
-            O Einstein — Física em Movimento é um projeto aberto de educação
-            científica criado para aproximar observação, medida, modelagem e
-            argumentação. A seleção abaixo prioriza instituições acadêmicas e
-            científicas reconhecidas, materiais com autoria identificável e
-            recursos que permitem verificar origem, finalidade e contexto.
+            O Einstein — Física em Movimento é um projeto educacional
+            experimental, idealizado e dirigido por Sidiney Rodrigues e
+            desenvolvido em colaboração humano–IA com apoio do OpenAI Codex. Foi
+            criado para aproximar observação, medida, modelagem e argumentação.
+            A seleção abaixo prioriza instituições acadêmicas e científicas
+            reconhecidas, materiais com autoria identificável e recursos que
+            permitem verificar origem, finalidade e contexto.
           </p>
 
           <div className="mt-14 grid gap-5 lg:grid-cols-2">
