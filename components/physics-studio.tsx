@@ -694,6 +694,26 @@ export function PhysicsStudio() {
             .
           </p>
           <p>Experimentos reais exigem supervisão e análise de risco.</p>
+          <p className="w-full">
+            Conteúdo educacional original sob{' '}
+            <a
+              className="text-sky-300 hover:text-primary"
+              href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+              rel="license"
+            >
+              CC BY 4.0
+            </a>
+            ; código-fonte sob licença{' '}
+            <a
+              className="text-sky-300 hover:text-primary"
+              href="https://github.com/sidineyr/Einstein-Fisica/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MIT
+            </a>
+            .
+          </p>
         </div>
       </footer>
       <Dialog open={lab !== null} onOpenChange={(o) => !o && setLab(null)}>
