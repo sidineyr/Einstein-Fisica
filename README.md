@@ -75,3 +75,15 @@ O site não substitui professor, laboratório equipado, análise de risco ou nor
 - **Conteúdo educacional original:** [Creative Commons Atribuição 4.0 Internacional — CC BY 4.0](LICENSE-CONTENT.md).
 
 Marcas, simulações, imagens, referências e outros materiais de terceiros permanecem sujeitos às licenças e aos termos de seus respectivos titulares.
+
+## Autoria e créditos
+
+O **Einstein — Física em Movimento** é um projeto educacional experimental, idealizado e dirigido por **Sidiney Rodrigues** e desenvolvido em colaboração humano–IA com apoio do **OpenAI Codex**.
+
+- Idealização, direção educacional, conteúdo e decisões editoriais: **Sidiney Rodrigues**.
+- Arquitetura, programação, experiência, acessibilidade, testes e documentação: desenvolvimento assistido pelo **OpenAI Codex**, sob orientação, revisão e decisão humana.
+- Bases curriculares e científicas: MEC, PhET, NASA, CERN, APS, MIT OpenCourseWare e OpenStax, conforme os links do portal.
+
+Obrigado a estudantes, professores e curiosos que transformam perguntas em novas possibilidades de aprendizagem.
+
+O Einstein é independente. A menção à OpenAI reconhece o apoio tecnológico prestado por meio do Codex e não representa patrocínio, parceria formal ou aprovação institucional do conteúdo.
