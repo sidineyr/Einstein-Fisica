@@ -285,6 +285,7 @@ export function PhysicsStudio() {
         ['Percurso', 'percurso'],
         ['Laboratórios', 'laboratorios'],
         ['Professor', 'professor'],
+        ['Créditos', 'creditos'],
       ].map(([t, id]) => (
         <a key={id} onClick={() => setMenu(false)} href={`#${id}`}>
           {t}
@@ -680,18 +681,104 @@ export function PhysicsStudio() {
           </div>
         </div>
       </section>
+      <section
+        id="creditos"
+        className="border-y bg-[#081629] px-5 py-24 lg:px-10"
+      >
+        <div className="mx-auto max-w-[1400px]">
+          <p className="font-mono text-xs text-primary">CRÉDITOS DO PROJETO</p>
+          <div className="mt-3 grid gap-5 lg:grid-cols-[1fr_1.2fr]">
+            <h2 className="text-4xl font-black sm:text-6xl">
+              Projeto experimental.
+              <br />
+              Uma colaboração humano–IA.
+            </h2>
+            <p className="max-w-xl text-muted-foreground">
+              O Einstein — Física em Movimento une direção educacional humana e
+              desenvolvimento assistido por inteligência artificial para tornar
+              a investigação em Física mais aberta, acessível e verificável.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
+            <article className="rounded-2xl border bg-card p-6">
+              <span className="grid size-12 place-items-center rounded-xl bg-primary font-mono font-black text-slate-950">
+                SR
+              </span>
+              <p className="mt-6 font-mono text-xs text-sky-300">
+                IDEALIZAÇÃO E DIREÇÃO
+              </p>
+              <h3 className="mt-2 text-2xl font-black">Sidiney Rodrigues</h3>
+              <p className="mt-3 leading-7 text-muted-foreground">
+                Idealização, direção educacional, conteúdo e decisões editoriais
+                do projeto.
+              </p>
+              <a
+                className="mt-5 inline-flex items-center gap-2 font-bold text-sky-300 hover:text-primary"
+                href="https://github.com/sidineyr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Conhecer o autor <ExternalLink className="size-4" />
+              </a>
+            </article>
+            <article className="rounded-2xl border bg-sky-950/50 p-6">
+              <span className="grid h-12 min-w-20 place-items-center rounded-xl bg-white px-3 font-mono font-black text-slate-950">
+                OpenAI
+              </span>
+              <p className="mt-6 font-mono text-xs text-sky-300">
+                DESENVOLVIMENTO ASSISTIDO
+              </p>
+              <h3 className="mt-2 text-2xl font-black">OpenAI Codex</h3>
+              <p className="mt-3 leading-7 text-muted-foreground">
+                Apoio à arquitetura, programação, experiência, acessibilidade,
+                testes e documentação, sob orientação e revisão humana.
+              </p>
+              <a
+                className="mt-5 inline-flex items-center gap-2 font-bold text-sky-300 hover:text-primary"
+                href="https://developers.openai.com/codex/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Conhecer o Codex <ExternalLink className="size-4" />
+              </a>
+            </article>
+          </div>
+          <p className="mt-7 max-w-4xl text-sm leading-6 text-muted-foreground">
+            Obrigado a estudantes, professores e curiosos que transformam
+            perguntas em novas possibilidades de aprendizagem. O Einstein é um
+            projeto independente: a menção à OpenAI reconhece o apoio
+            tecnológico prestado por meio do Codex e não representa patrocínio,
+            parceria formal ou aprovação institucional do conteúdo.{' '}
+            <a
+              className="font-bold text-sky-300 hover:text-primary"
+              href="/Einstein-Fisica/sobre/"
+            >
+              Ver autoria, fontes e independência editorial.
+            </a>
+          </p>
+        </div>
+      </section>
       <footer className="border-t px-5 py-8 text-sm text-muted-foreground lg:px-10">
         <div className="mx-auto flex max-w-[1400px] flex-wrap justify-between gap-3">
           <p>
             <b className="text-white">Einstein — Física em Movimento</b> •
-            idealizado por{' '}
+            projeto educacional experimental idealizado por{' '}
             <a
               className="text-sky-300 hover:text-primary"
               href="/Einstein-Fisica/sobre/"
             >
               Sidiney Rodrigues
             </a>
-            .
+            , com desenvolvimento assistido pelo{' '}
+            <a
+              className="text-sky-300 hover:text-primary"
+              href="https://developers.openai.com/codex/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              OpenAI Codex
+            </a>
+            , sob direção humana.
           </p>
           <p>Experimentos reais exigem supervisão e análise de risco.</p>
           <p className="w-full">
