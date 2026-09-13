@@ -802,7 +802,14 @@ export function PhysicsStudio() {
             .
           </p>
         </div>
-      </footer>
+      
+      <p style={{ width: '100%', marginTop: '0.65rem', fontSize: '0.75rem', lineHeight: 1.5, opacity: 0.72 }}>
+        Este projeto nasceu do desejo de ensinar e cuidar. Se ele tocou você,{' '}
+        <a href="https://pequenoprincipe.org.br/doadores/apoie-o-pequeno-principe/" target="_blank" rel="noopener noreferrer">
+          considere doar diretamente ao Hospital Pequeno Príncipe
+        </a>. Iniciativa voluntária, independente e sem intermediação financeira.
+      </p>
+</footer>
       <Dialog open={lab !== null} onOpenChange={(o) => !o && setLab(null)}>
         {lab !== null && (
           <DialogContent className="max-h-[90vh] overflow-y-auto bg-card text-foreground sm:max-w-2xl">
