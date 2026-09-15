@@ -6,10 +6,10 @@ const mono = IBM_Plex_Mono({ variable: '--font-mono', subsets: ['latin'], weight
 export const metadata: Metadata = {
   metadataBase: new URL('https://sidineyr.github.io/Einstein-Fisica/'),
   title: { default: 'Einstein — Física em Movimento', template: '%s | Einstein — Física em Movimento' },
-  description: 'Estúdio aberto e gratuito de Física para o Ensino Médio, com percurso investigativo, quiz, laboratórios digitais e alinhamento à BNCC.',
+  description: 'Aprenda Física para o Ensino Médio gratuitamente com experimentos, simulações, quiz, laboratórios digitais e conteúdos alinhados à BNCC.',
   authors: [{ name: 'Sidiney Rodrigues', url: 'https://github.com/sidineyr' }],
   creator: 'Sidiney Rodrigues',
-  keywords: ['Física', 'Ensino Médio', 'BNCC', 'experimentos de Física', 'simulações de Física', 'educação científica'],
+  keywords: ['Física para o Ensino Médio', 'aprender Física', 'experimentos de Física', 'simulações de Física', 'laboratório virtual de Física', 'Física BNCC', 'educação científica gratuita'],
   alternates: { canonical: 'https://sidineyr.github.io/Einstein-Fisica/' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
   openGraph: { title: 'Einstein — Física em Movimento', description: 'Aprenda Física investigando: observe, meça, modele, teste e argumente.', url: 'https://sidineyr.github.io/Einstein-Fisica/', siteName: 'Einstein — Física em Movimento', type: 'website', locale: 'pt_BR', images: [{ url: 'og.png', width: 1200, height: 630, alt: 'Einstein — Física em Movimento' }] },

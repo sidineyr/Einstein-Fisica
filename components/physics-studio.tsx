@@ -800,6 +800,12 @@ export function PhysicsStudio() {
               MIT
             </a>
             .
+            {' '}<a
+              className="text-sky-300 hover:text-primary"
+              href="https://sidineyr.github.io/"
+            >
+              Conheça outros projetos educacionais gratuitos
+            </a>.
           </p>
         </div>
       
