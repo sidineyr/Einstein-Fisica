@@ -87,3 +87,8 @@ O **Einstein — Física em Movimento** é um projeto educacional experimental, 
 Obrigado a estudantes, professores e curiosos que transformam perguntas em novas possibilidades de aprendizagem.
 
 O Einstein é independente. A menção à OpenAI reconhece o apoio tecnológico prestado por meio do Codex e não representa patrocínio, parceria formal ou aprovação institucional do conteúdo.
+
+
+## Contador de acessos (16/10/2026)
+
+A página inicial exibe um contador público Hits, chave `sidineyr.github.io/Einstein-Fisica`. Conta carregamentos do indicador desde a instalação, não pessoas únicas. O serviço externo recebe dados técnicos da conexão; nenhuma resposta de atividade é enviada. O portfólio consulta o total pela API de estatísticas, sem carregar o SVG e sem acrescentar acessos. Histórico anterior à instalação não foi estimado.
